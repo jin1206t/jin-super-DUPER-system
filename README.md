@@ -1,1 +1,1 @@
-# jin-super-DUPER-system
+A site with an introduction and message board
