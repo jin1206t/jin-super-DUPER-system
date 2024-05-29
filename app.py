@@ -8,7 +8,7 @@ os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'serviceAccountKey.json'
 app = Flask(__name__)
 
 # Initialize Firestore
-db = firestore.Client()
+db = firestore.Client(database="jin-note-page")
 
 @app.route('/')
 def home():
